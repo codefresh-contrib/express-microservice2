@@ -5,6 +5,7 @@ RUN cd /src && npm install
 COPY  ./ /src
 
 WORKDIR /src
+ENV some=thing
 #ENV DEBUG=*
 
 CMD ["npm", "start"]
