@@ -6,6 +6,7 @@ COPY  ./ /src
 
 WORKDIR /src
 ENV some=thing
+ENV else=other
 #ENV DEBUG=*
 
 CMD ["npm", "start"]
