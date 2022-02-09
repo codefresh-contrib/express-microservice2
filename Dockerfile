@@ -9,6 +9,4 @@ ENV some=thing
 ENV other=thing
 #ENV DEBUG=*
 
-
-
 CMD ["npm", "start"]
