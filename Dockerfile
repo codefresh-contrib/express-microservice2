@@ -7,4 +7,5 @@ COPY  ./ /src
 WORKDIR /src
 #ENV DEBUG=*
 
+
 CMD ["npm", "start"]
